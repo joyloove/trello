@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/background-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilo de header */
+header {
+    height: 40px;
+    background-color: rgba(12, 12, 12, 0.2);
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header .tablero {
+    background-color: rgba(12, 12, 12, 0.1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+}
+
+header .tablero:hover {
+    background-color: rgba(12, 12, 12, 0.2);
+}
+
+header .user {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+header .search {
+    background-color:rgba(12, 12, 12, 0.1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+}
+
+header .search:hover {
+    background-color: rgba(12, 12, 12, 0.2);
+}
+
+header .search i {
+    position: relative;
+    left: 180px;
+}
+
+header .logo {
+    width: 80px;
+    height: 30px;
+    margin-left: 270px;
+    margin-right: 360px;
+}
+
+header .icon {
+    background-color:rgba(12, 12, 12, 0.1);
+    padding: 7px 9px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 17px;
+    margin-left: 5px;
+    position: relative;
+    text-align: center;
+    top: -6px;
+}
+
+header .icon:hover {
+    background-color: rgba(12, 12, 12, 0.2);
+}
+
+/* Estilo de div: main-container  */
+.main-container {
+    position: relative;
+    top: 20px;
+}
+
+.main-container #span {
+    color: #fff;
+    background-color: rgba(12, 12, 12, 0.1);
+    position: relative;
+    left: 20px;
+}
+
+.main-container #span:hover {
+    color: rgb(235, 225, 225);
+    background-color: rgba(12, 12, 12, 0.3);
+}
+
+.origin-list {
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.origin-list:hover {
+    cursor: pointer;
+}
+
+/* Estilo para js */
+
+.style-box {
+    width: 200px;
+    height: auto;
+    background-color: #e2e4e6;
+    border-radius: 5px;
+    margin:10px;
+    float: left;
+    padding: 10px;
+    resize: none;
+}
+
+.style-tarea2 {
+    width: 200px;
+    height: auto;
+    background-color: #e2e4e6;
+    border-radius: 5px;
+    resize: none;
+}
+
+.style-parr {
+    background-color: rgba(12, 12, 12, 0.2);
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 3px;
+    word-wrap: break-word;
+}
+
+.textarea-size {
+    width: 180;
+    height: auto;
+    resize: none;
+}
+
+.bolt {
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: rgb(14, 150, 37);
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    width: 60px;
+    height: 25px;
+    top: 2px;
+    color: #fff;
+    outline: none;
+}
+
+#icon-style {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.shadow {
+    background-color: #ebeff1;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+.form-style {
+    width: 200px;
+    height: auto;
+}
+
+.left {
+    float: left;
+}
+
+.div {
+    background-color: #e2e4e6;
+    width: 175px;
+}
